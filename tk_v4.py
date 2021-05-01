@@ -5,11 +5,11 @@ import os
 import time
 
 exercise = {
-    'Wall stretch':3,
-    'Lying leg stretch':3,
-    'Lying leg raise':10,
-    'Sideways hips':10,
-    'Seated leg raise':10
+    'Exercise One':3,    #'Name of Exercise':number of sets
+    'Exercise Two':3,    #Exercises with 3 sets have a duration of 30 seconds each
+    'Exercise Three':10, #Exercises with 10 sets have duration of 10 seconds each
+    'Exercise Four':10,
+    'Exercise Five':10
     }
 
 exercise_checkbox = exercise.copy()
@@ -44,9 +44,6 @@ def announce(reps):
         if i != 0:
             say(str(i)+' more')
             
-
-            
-
 
 def pause():
     '''
